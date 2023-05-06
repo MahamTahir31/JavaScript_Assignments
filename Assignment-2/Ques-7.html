@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example Script Placement</title>
+    <style>
+        /* Some example CSS styles */
+        body {
+          font-family: Arial, sans-serif;
+          font-size: 16px;
+          line-height: 1.4;
+        }
+        .button {
+          background-color: blue;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      </style>
+
+    <script>
+      alert('This script is in the head section!');
+    </script>
+  </head>
+  <body>
+    <script>
+      alert('This script is in the body section, before the page\'s HTML!');
+    </script>
+    <h1>Example Script Placement</h1>
+    <p>This script is in the body section, before the page's HTML.</p>
+    <script>
+      alert('This script is inside the page\'s HTML!');
+
+
+    </script>
+
+        <h1>Example Alert Usage</h1>
+        <p>Click the button below to display an alert:</p>
+        <button class="button" onclick="showAlert()">Display Alert</button>
+        <script src="./assets/app7.JS"></script>
+
+
+    <script>
+      alert('This script is in the body section, after the page\'s HTML!');
+    </script>
+    <script>
+      alert('This script is in the body section, after the page\'s HTML!');
+    </script>
+  </body>
+</html>
