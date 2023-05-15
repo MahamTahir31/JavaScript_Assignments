@@ -1,0 +1,12 @@
+let val;
+document.write("“Value after variable declaration is: " + val);
+val = 3;
+document.write("Initial Value: " + val);
+val = val + 1;
+document.write("Value after increment is: " + val);
+val = val + 7;
+document.write("Value after addition is: " + val);
+val = val - 1;
+document.write("Value after decrement is: " + val);
+val = val % 3;
+document.write("The remainder is: " + val);

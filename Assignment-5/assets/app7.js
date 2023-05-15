@@ -1,0 +1,12 @@
+let item1 = 300;
+let item2 = 200;
+let quant_item1 = 2;
+let quant_item2 = 5;
+let sh_charges = 100;
+let total = item1 + item2 + quant_item1 + quant_item2 + sh_charges;
+document.write("Price of item 1 is " + item1);
+document.write("Quantity of item 1 is " + quant_item1);
+document.write("Price of item 2 is " + item2);
+document.write("Quantity of item 2 is " + quant_item2);
+document.write("Shipping Charges " + sh_charges);
+document.write("Total Cost  " + total);
