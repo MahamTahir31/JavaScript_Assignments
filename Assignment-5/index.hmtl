@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment | Chap 5</title>
+</head>
+<body>
+    <!-- ques-1  -->
+    <!-- <script src="./assets/app1.js"></script> -->
+    <!-- ques-2  -->
+    <!-- <script src="./assets/app2.js"></script> -->
+    <!-- ques-3  -->
+    <!-- <script src="./assets/app3.js"></script> -->
+    <!-- ques-4  -->
+    <!-- <script src="./assets/app4.js"></script> -->
+    <!-- ques-5  -->
+    <!-- <script src="./assets/app5.js"></script> -->
+    <!-- ques-6  -->
+    <!-- <script src="./assets/app6.js"></script> -->
+    <!-- <h1>Marksheet</h1> -->
+    <!-- ques-7  -->
+    <!-- <script src="./assets/app7.js"></script> -->
+    <!-- ques-8  -->
+    <!-- <script src="./assets/app8.js"></script> -->
+    <!-- <h1>Currency in Pkr</h1> -->
+    <!-- ques-9  -->
+    <!-- <script src="./assets/app9.js"></script> -->
+    <!-- ques-10  -->
+    <!-- <script src="./assets/app10.js"></script> -->
+    <!-- <h1>Age Calculatoe</h1> -->
+    <!-- ques-11  -->
+    <!-- <script src="./assets/app11.js"></script> -->
+    <!-- <h1>The Geometrizer</h1> -->
+    <!-- ques-12  -->
+    <!-- <script src="./assets/app12.js"></script> -->
+    <!-- ques-13 -->
+    <!-- <script src="./assets/app13.js"></script> -->
+</body>
+</html>
