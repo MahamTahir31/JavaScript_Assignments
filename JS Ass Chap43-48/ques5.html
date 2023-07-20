@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ques-5 | Counter Example</title>
+  <style>
+    .counter-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .counter {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 24px;
+    }
+
+    .counter-value {
+      margin-bottom: 10px;
+    }
+
+    .counter-button {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+ <h1 style="text-align: center;">Question 5</h1>
+  <div class="counter-container">
+    <div class="counter">
+      <div class="counter-value" id="counterValue">0</div>
+      <button class="counter-button" onclick="increaseCounter()">Increase</button>
+      <button class="counter-button" onclick="decreaseCounter()">Decrease</button>
+    </div>
+  </div>
+
+  <script>
+    var counter = 0;
+    var counterValueElement = document.getElementById("counterValue");
+
+    function increaseCounter() {
+      counter++;
+      counterValueElement.textContent = counter;
+    }
+
+    function decreaseCounter() {
+      if (counter > 0) {
+        counter--;
+        counterValueElement.textContent = counter;
+      }
+    }
+  </script>
+</body>
+</html>

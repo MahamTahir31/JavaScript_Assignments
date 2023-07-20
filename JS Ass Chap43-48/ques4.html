@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ques-4 | Image Change on Mouseover</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    #myImage {
+      width: 300px;
+      height: 500px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Question 4</h1>
+    <img id="myImage" src="/assets/images/image1.jpg" onmouseover="changeImage()" onmouseout="restoreImage()">
+  </div>
+  
+  <script>
+    var originalImage = "/assets/images/image1.jpg";
+    var changedImage = "./assets/images/image2.jpg";
+    
+    function changeImage() {
+      var image = document.getElementById("myImage");
+      image.src = changedImage;
+    }
+    
+    function restoreImage() {
+      var image = document.getElementById("myImage");
+      image.src = originalImage;
+    }
+  </script>
+</body>
+</html>

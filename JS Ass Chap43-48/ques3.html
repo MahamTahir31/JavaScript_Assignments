@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ques-3 | Student Records</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+
+    .delete-button {
+      background-color: silver;
+      color: black;
+      border: none;
+      padding: 6px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      border: solid 1px black;
+    }
+  </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Question 3</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Student ID</th>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>John Doe</td>
+        <td>10</td>
+        <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Jane Smith</td>
+        <td>9</td>
+        <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Mark</td>
+        <td>10</td>
+        <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>James</td>
+        <td>8</td>
+        <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <!-- Add more student records here -->
+    </tbody>
+  </table>
+
+  <script>
+    function deleteRow(button) {
+      var row = button.parentNode.parentNode;
+      row.parentNode.removeChild(row);
+    }
+  </script>
+</body>
+</html>
