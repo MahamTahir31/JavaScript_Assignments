@@ -1,6 +1,4 @@
-- MAHAM TAHIR
-- Doing bachelor's at ubit, University of Karachi 
-- i think to code and code to explore :)
+<h2>#JS crash course </h2>
 
 
 <!---
